@@ -61,8 +61,8 @@ The dataset repository is organized into seven folders, each corresponding to on
 
 📁 Filename Convention
 Each video file in the ANUVUTI dataset follows a structured naming format to ensure easy identification and retrieval.
-🧾 Format
-P_<ActorNumber>_<EmotionCode>_<SentenceNumber>_(<Repetition>).mp4
+🧾 Format: P_<ActorNumber>_<EmotionCode>_<SentenceNumber>_(<Repetition>).mp4
+
 📌 Example
 P_1_A_1_(1).mp4
 🔍 Meaning of Example:
