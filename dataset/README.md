@@ -59,16 +59,24 @@ The dataset repository is organized into seven folders, each corresponding to on
 
 ---
 
-## 🏷️ File Naming Convention
+📁 Filename Convention
+Each video file in the ANUVUTI dataset follows a structured naming format to ensure easy identification and retrieval.
+🧾 Format
+P_<ActorNumber>_<EmotionCode>_<SentenceNumber>_(<Repetition>).mp4
+📌 Example
+P_1_A_1_(1).mp4
+🔍 Meaning of Example:
+P_1 → First actor
+A → Angry emotion
+1 → First sentence of the Angry category
+(1) → First repetition of that sentence
 
-Each video follows a structured naming format: [ActorID]_[Emotion][SentenceNumber]_[Repetition].mp4
-
-
-### Examples
-- Actor01_Happy_01_1.mp4  
-- Actor02_Neutral_04_3.mp4  
-
-This format allows efficient indexing, filtering, and data processing.
+📊 Filename Structure Breakdown
+Component	Description
+Actor Number	P_1, P_2, P_3, ..., P_10
+Emotion State	A = Angry, D = Disgust, F = Fear, H = Happy, N = Neutral, S = Sad, Sur = Surprise
+Sentence Number	1, 2, 3, 4, 5, ... up to 35
+Repetition	(1), (2), (3) for repeated recordings
 
 ---
 
