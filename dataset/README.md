@@ -59,24 +59,32 @@ The dataset repository is organized into seven folders, each corresponding to on
 
 ---
 
-📁 Filename Convention
-Each video file in the ANUVUTI dataset follows a structured naming format to ensure easy identification and retrieval.
-🧾 Format: P_<ActorNumber>_<EmotionCode>_<SentenceNumber>_(<Repetition>).mp4
+## 📂 Filename Structure of ANUVUTI Dataset
 
-📌 Example
-P_1_A_1_(1).mp4
+The dataset follows a structured naming convention to ensure easy identification and retrieval of each video file.
+
+### 📌 File Naming Format: P_<person-number><1st-emotion><sentence-number>_ (<number-of-repeat>
+
+
+### 📌 Example: P_1_A_1_(1).mp4
 🔍 Meaning of Example:
-P_1 → First actor
-A → Angry emotion
-1 → First sentence of the Angry category
-(1) → First repetition of that sentence
 
-📊 Filename Structure Breakdown
-Component	Description
-Actor Number	P_1, P_2, P_3, ..., P_10
-Emotion State	A = Angry, D = Disgust, F = Fear, H = Happy, N = Neutral, S = Sad, Sur = Surprise
-Sentence Number	1, 2, 3, 4, 5, ... up to 35
-Repetition	(1), (2), (3) for repeated recordings
+### 📖 Explanation of Example:
+- **P_1** → First actor
+- **A** → Angry emotion
+- **1** → First sentence of Angry emotion
+- **(1)** → First repetition of the sentence
+
+---
+
+## 📊 Table: Filename Structure Description
+
+| Identifier Component     | Meaning |
+|-------------------------|--------|
+| Actor Number            | P_1, P_2, P_3, P_4, P_5, P_6, P_7, P_8, P_9, P_10 |
+| Emotion State           | A = Angry, D = Disgust, F = Fear, H = Happy, N = Neutral, S = Sad, Sur = Surprise |
+| Sentence Number         | 1, 2, 3, 4, 5, ... 35 |
+| Sentence Repetition     | 1(1), 1(2), 1(3), 2(1), 2(2), ... 5(3) |
 
 ---
 
