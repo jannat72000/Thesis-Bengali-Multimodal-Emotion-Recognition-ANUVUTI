@@ -63,7 +63,7 @@ The dataset repository is organized into seven folders, each corresponding to on
 
 The dataset follows a structured naming convention to ensure easy identification and retrieval of each video file.
 
-### 📌 File Naming Format: P_<person-number><1st-emotion><sentence-number>_ (<number-of-repeat>
+### 📌 File Naming Format: P_<person-number>_<1st-emotion>_<sentence-number>_(<number-of-repeat>)
 
 
 ### 📌 Example: P_1_A_1_(1).mp4
